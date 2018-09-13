@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>書籍情報登録</title>
+    </h:head>
+    <h:body>
+        <h1>書籍データの確認</h1>
+        書籍名：<h:outputText value="#{bookBean.bookName}" /><br/>
+        著者名：<h:outputText value="#{bookBean.authorName}" /><br/>
+        価格：<h:outputText value="#{bookBean.price}" /><br/>
+        <h:link outcome="index_ex01">[戻る]</h:link>
+    </h:body>
+</html>
+
